@@ -40,6 +40,6 @@ import { Ingredient } from "../shared/ingredient.model";
 
   public deleteIngredient(index: number) {
     this.ingredients.splice(index, 1);
-    this.ingredientsChanged.next([...this.ingredients])
+    this.ingredientsChanged.next(this.ingredients.slice())
   }
 }
