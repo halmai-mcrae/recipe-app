@@ -14,13 +14,13 @@ export class RecipeService {
     new Recipe(
       'Curried Lentil Pies',
       'Plant-based, Peanut-free',
-      'https://images.unsplash.com/photo-1559143113-6332004db0e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      'https://images.unsplash.com/photo-1606502297165-0ff834c3abfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
       [new Ingredient('Lentils', 2), new Ingredient('Pastry Sheet', 3)]
     ),
     new Recipe(
       'French Onion Dip',
       'Plant-based, Peanut-free, Gluten-free',
-      'https://images.unsplash.com/photo-1615485925873-7ecbbe90a866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
+      'https://fraicheliving.com/wp-content/uploads/2018/11/unspecified-341.jpeg',
       [new Ingredient('Cashews', 1), new Ingredient('Tahini', 4)]
     ),
   ];
