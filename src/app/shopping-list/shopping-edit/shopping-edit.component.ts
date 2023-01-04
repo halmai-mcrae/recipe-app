@@ -18,12 +18,13 @@ export class ShoppingEditComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onAddItem() {
-    const ingName = this.nameInputRef.nativeElement.value;
-    const ingAmount = this.amountInputRef.nativeElement.value;
-    const newIngredient = new Ingredient(ingName, ingAmount);
+  onAddItem(event: Event) {
+    event.preventDefault();
+    const newIngredient = new Ingredient(
+      this.nameInputRef.nativeElement.value,
+      this.amountInputRef.nativeElement.value
+    );
     this.slService.addIngredient(newIngredient);
-
   }
 
 }
