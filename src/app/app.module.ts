@@ -37,8 +37,7 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    ReactiveFormsModule
-
+    ReactiveFormsModule,
   ],
   providers: [ShoppingListService,
     RecipeService],
