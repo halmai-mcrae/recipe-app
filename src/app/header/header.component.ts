@@ -32,7 +32,9 @@ export class HeaderComponent implements OnInit, OnDestroy {
     this.dataStorageService.fetchRecipes().subscribe();
   }
 
-  ngOnDestroy(): void {
-    throw new Error('Method not implemented.');
+  ngOnDestroy() {
+    if (this.userSub) {
+      this.userSub.unsubscribe();
+    }
   }
 }
