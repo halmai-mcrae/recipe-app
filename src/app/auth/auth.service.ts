@@ -51,15 +51,15 @@ export class AuthService {
     switch (errorRes.error.error.message) {
       case 'EMAIL_EXISTS':
         errorMessage =
-          'This email exists already. Please log in or sign up with different crredentials.';
+          'This email exists already. Please log in or sign up with different credentials.';
         break;
       case 'EMAIL_NOT_FOUND':
         errorMessage =
-          'This email does not exist. Please log in or sign up with different crredentials.';
+          'This email does not exist. Please log in or sign up with different credentials.';
         break;
       case 'INVALID_PASSWORD':
         errorMessage =
-          'Password not recognised. Please log in or sign up with different crredentials.';
+          'Password not recognised. Please log in or sign up with different credentials.';
         break;
     }
     return throwError(errorMessage);
