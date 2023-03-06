@@ -1,2 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+
+.btn-success,
+.btn-success:disabled,
+.btn-success:visited,
+.btn-success:focus,
+.btn-success:active:focus {
+  background-color: #e5a6ab;
+  border-color: #e5a6ab;
+}
+
+.btn-success:hover {
+  background-color: #e7999f;
+  border-color: #e7999f;
+}
+
+.btn:disabled:hover {
+  background-color: #777;
+  color: black;
+  border-color: black;
+}
+
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background-color: #10343d;
+  border-color: #10343d;
+}
+
+.btn-primary:hover {
+  background-color: #0f2f35;
+  border-color: #0f2f35;
+}
+
+.btn-danger,
+.btn-danger:visited,
+.btn-danger:focus,
+.btn-danger:active:focus {
+  background-color: #5c2603;
+  border-color: #5c2603;
+}
+
+.btn-danger:hover {
+  background-color: #4f2202;
+  border-color: #4f2202;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  background-color: #0f2f35;
+  border-color: #0f2f35;
+}
