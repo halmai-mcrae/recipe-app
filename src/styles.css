@@ -6,13 +6,13 @@
 .btn-success:visited,
 .btn-success:focus,
 .btn-success:active:focus {
-  background-color: #e5a6ab;
-  border-color: #e5a6ab;
+  background-color: #9ac97e;
+  border-color: #9ac97e;
 }
 
 .btn-success:hover {
-  background-color: #e7999f;
-  border-color: #e7999f;
+  background-color: #9ac97e;
+  border-color: #9ac97e;
 }
 
 .btn:disabled:hover {
@@ -25,13 +25,13 @@
 .btn-primary:visited,
 .btn-primary:focus,
 .btn-primary:active:focus {
-  background-color: #10343d;
-  border-color: #10343d;
+  background-color: #dcc692db;
+  border-color: #dcc692db;
 }
 
 .btn-primary:hover {
-  background-color: #0f2f35;
-  border-color: #0f2f35;
+  background-color: #dcc692db;
+  border-color: #dcc692db;
 }
 
 .btn-danger,
@@ -50,6 +50,6 @@
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  background-color: #0f2f35;
-  border-color: #0f2f35;
+  background-color: #dcc692db;
+  border-color: #dcc692db;
 }
