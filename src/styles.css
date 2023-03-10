@@ -25,13 +25,13 @@
 .btn-primary:visited,
 .btn-primary:focus,
 .btn-primary:active:focus {
-  background-color: #dcc692db;
-  border-color: #dcc692db;
+  background-color: #c6b89e;
+  border-color: #c6b89e;
 }
 
 .btn-primary:hover {
-  background-color: #dcc692db;
-  border-color: #dcc692db;
+  background-color: #c6b89e;
+  border-color: #c6b89e;
 }
 
 .btn-danger,
@@ -50,6 +50,6 @@
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  background-color: #dcc692db;
-  border-color: #dcc692db;
+  background-color: #c6b89e;
+  border-color: #c6b89e;
 }

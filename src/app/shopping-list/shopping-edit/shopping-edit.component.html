@@ -2,8 +2,8 @@
   <div class="col-xs-5">
     <form (ngSubmit)="NgSubmit(f)" #f="ngForm">
       <div class="row">
-        <div class="col-sm-6 form-group">
-          <label for="amount">Name</label>
+        <div class="col-sm-5 form-group">
+          <label for="name">Item</label>
           <input
             type="text"
             id="name"
@@ -14,7 +14,7 @@
           />
         </div>
 
-        <div class="col-sm-6 form-group">
+        <div class="col-sm-3 form-group">
           <label for="amount">Amount</label>
           <input
             type="number"
@@ -24,6 +24,17 @@
             ngModel
             required
             [pattern]="'^[1-9]+[0-9]*$'"
+          />
+        </div>
+        <div class="col-sm-3 form-group">
+          <label for="unit">Unit</label>
+          <input
+            type="UnitOfMeasure"
+            id="unit"
+            class="form-control"
+            name="unit"
+            ngModel
+            required
           />
         </div>
       </div>
