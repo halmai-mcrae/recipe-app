@@ -1,18 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
+body {
+  font-family: "Sono", sans-serif;
+  font-size: 16px;
+  background-color: #faf7f0;
+  letter-spacing: 1px;
+}
+
+h3,
+h4 {
+  font-family: "Sono", sans-serif;
+  font-weight: 600;
+}
+
 .btn-success,
 .btn-success:disabled,
 .btn-success:visited,
 .btn-success:focus,
 .btn-success:active:focus {
-  background-color: #9ac97e;
-  border-color: #9ac97e;
+  background-color: #cdeac0;
+  border-color: #cdeac0;
+  color: #41aa10;
+  box-shadow: -3px -3px 7px -1px #fff, 5px 5px 9px -3px rgb(0 0 0 / 20%);
 }
 
 .btn-success:hover {
-  background-color: #9ac97e;
-  border-color: #9ac97e;
+  background-color: #cdeac0;
+  border-color: #cdeac0;
 }
 
 .btn:disabled:hover {
@@ -25,31 +40,37 @@
 .btn-primary:visited,
 .btn-primary:focus,
 .btn-primary:active:focus {
-  background-color: #c6b89e;
-  border-color: #c6b89e;
+  background-color: #e3e0f2;
+  border-color: #e3e0f2;
+  color: #524270;
+  box-shadow: -3px -3px 7px -1px #fff, 5px 5px 9px -3px rgb(0 0 0 / 20%);
 }
 
 .btn-primary:hover {
-  background-color: #c6b89e;
-  border-color: #c6b89e;
+  background-color: #e3e0f2;
+  border-color: #e3e0f2;
+  color: #524270;
 }
 
 .btn-danger,
 .btn-danger:visited,
 .btn-danger:focus,
 .btn-danger:active:focus {
-  background-color: #5c2603;
-  border-color: #5c2603;
+  background-color: #ff928b;
+  border-color: #ff928b;
+  color: #de493e;
+  box-shadow: -3px -3px 7px -1px #fff, 5px 5px 9px -3px rgb(0 0 0 / 20%);
 }
 
 .btn-danger:hover {
-  background-color: #4f2202;
-  border-color: #4f2202;
+  background-color: #ff928b;
+  border-color: #ff928b;
+  color: #de493e;
 }
 
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  background-color: #c6b89e;
-  border-color: #c6b89e;
+  background-color: #e5e5e5;
+  border: #e5e5e5;
 }

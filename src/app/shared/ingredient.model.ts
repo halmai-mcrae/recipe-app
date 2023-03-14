@@ -1,15 +1,4 @@
-export enum UnitOfMeasure {
-  TEA_SPOON = 'tsp.',
-  TABLE_SPOON = 'tbsp.',
-  CUP = 'c.',
-  MILLILITER = 'ml',
-  LITER = 'l',
-  DECILITER = 'dl',
-  GRAM = 'g',
-  KILOGRAM = 'kg',
-  X_TIMES = 'x',
-  PIECE = 'piece',
-}
+export enum UnitOfMeasure {}
 
 export class Ingredient {
   constructor(

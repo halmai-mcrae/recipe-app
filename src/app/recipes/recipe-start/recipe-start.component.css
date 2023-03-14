@@ -1,5 +1,7 @@
-h4 {
-  font-family: "Abril Fatface", cursive;
-  font-size: 2em;
-  color: #5c2603;
+.recipe-start {
+  width: 80%;
+  padding: 0 30px;
+  background-color: #e3e0f2;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }

@@ -1,5 +1,9 @@
+.navbar {
+  background-color: #faf7f0;
+}
+
 .navbar-brand {
   font-family: "Abril Fatface", cursive;
   font-size: 2em;
-  color: #5c2603;
+  color: #ffac81;
 }
