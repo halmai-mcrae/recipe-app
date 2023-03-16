@@ -1,7 +1,12 @@
 .recipe-start {
-  width: 80%;
-  padding: 0 30px;
-  background-color: #e3e0f2;
-  border-radius: 15px;
+  background-color: #ffac81;
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.title {
+  font-family: "Abril Fatface", cursive;
+  color: white;
 }
