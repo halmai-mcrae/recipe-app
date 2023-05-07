@@ -4,8 +4,9 @@
 body {
   font-family: "Sono", sans-serif;
   font-size: 16px;
-  background-color: #faf7f0;
+  background-color: rgb(248, 242, 235);
   letter-spacing: 1px;
+  min-height: 100vh;
 }
 
 h3,
@@ -40,16 +41,16 @@ h4 {
 .btn-primary:visited,
 .btn-primary:focus,
 .btn-primary:active:focus {
-  background-color: #e3e0f2;
-  border-color: #e3e0f2;
-  color: #524270;
+  background-color: #ffcd9b;
+  border-color: #ffcd9b;
+  color: #ff6c00;
   box-shadow: -3px -3px 7px -1px #fff, 5px 5px 9px -3px rgb(0 0 0 / 20%);
 }
 
 .btn-primary:hover {
-  background-color: #e3e0f2;
-  border-color: #e3e0f2;
-  color: #524270;
+  background-color: #ffcd9b;
+  border-color: #ffcd9b;
+  color: #ff6c00;
 }
 
 .btn-danger,

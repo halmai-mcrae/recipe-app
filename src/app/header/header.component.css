@@ -1,11 +1,22 @@
+@keyframes font-family-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .navbar {
-  background-color: #faf7f0;
+  background-color: rgb(248, 242, 235);
 }
 
 .navbar-brand {
-  font-family: "Abril Fatface", cursive;
-  font-size: 2em;
-  color: #ffac81;
+  font-family: "DM Sans", sans-serif;
+  animation: font-family-animation 10s linear infinite;
+  transition: font-family 1s ease-in-out;
+  font-size: 3em;
+  color: #181818;
 }
 
 .navbar-brand:hover {
